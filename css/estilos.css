@@ -1,0 +1,58 @@
+
+/*Colocamos una imagen de fondo al 'body' de nuestras páginas*/
+
+body {
+
+  background-image: url("../figuras/fondo.png");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+
+
+/*Creamos la clase 'center' de forma que podamos centrar, por ejemplo, las tablas de nuestras páginas*/
+
+.center{
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/*Le damos formato a los encabezados*/
+
+h1 {
+
+  font-weight: bold;
+  text-align: center;  
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color: #ae00b8;
+
+}
+
+h2 {
+
+  font-weight: bold;
+  text-align: left;  
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color: Tomato ;
+
+}
+
+p, ul {
+
+  font-family: sans-serif;
+  font-size: 28px;
+  color: #ffffff;
+
+}
+
+/*Le damos formato a las imágenes de las tablas*/
+
+img {
+
+  display: block;
+  width: 100px;
+  height: 100px;
+
+}
